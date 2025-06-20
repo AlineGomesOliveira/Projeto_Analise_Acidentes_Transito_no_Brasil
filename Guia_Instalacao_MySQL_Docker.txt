@@ -1,0 +1,63 @@
+Guia de Instalação do MySQL no Docker via command line.
+
+1) Validar inicialização do docker:
+container ps -a
+
+2) Inicializar o serviço do Docker(Se necessário):
+systemctl start docker.service
+
+3) Configurar o docker no boot no Linux(Se necessário):
+systemctl enable docker.service
+
+4) Criar do Volume:
+docker volume create mysql-volume
+
+5) Instalar a imagem do Mysql com Linux:
+docker run --name container-mysql -p3306:3306 -v mysql-volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=senha -d mysql/mysql-server:latest
+
+Onde: 
+-> container-mysql : Nome da imagem a ser instalada;
+-> 3306:3306 : É o de/para da porta TCP. Alterar em caso de utilização prévia da porta 3306;
+-> mysql-volume:/var/lib/mysql : Diretório onde será armazenado e executado o volume criado;
+-> MYSQL_ROOT_PASSWORD=senha : Senha do usuário root. Substitua a palavra "senha" pela senha de sua preferência;
+-> mysql/mysql-server:latest : Baixa última versão da imagem do MySQL.
+Você poderá consultar demais versões em https://hub.docker.com/_/mysql
+******> Dica: o usuário do Mysql padrão é root.
+
+6) Validação da instalação da imagem:
+docker ps
+
+7) Abrir a porta 3306 no firewall:
+ufw allow 3306
+
+8) Liberação do IP:
+Acessar console do MySQL(passos 10 e 11)
+update mysql.user set host='%' where user='root';
+******> Essa etapa libera QUALQUER IP 
+
+9) Sair do MySql, reiniciar o container para liberação do IP:
+mysql> exit
+exit
+docker restart CONTAINER ID
+
+10) Para acessar o container:
+docker exec -it container-mysql bash
+
+11) Para acessar o console do MySQL:
+mysql -u root -p
+
+12) Criar uma base de dados de teste:
+mysql>CREATE DATABASE MINHA_BASE_DE_DADOS;
+
+
+Para reinicializar o container:
+docker container start 0da3c7e02441
+0da3c7e02441 foi o container criado
+******> verificar o container: container ps
+
+
+
+Referência: https://www.leobreda.net/artigos/instalando-o-mysql-no-docker-43.html
+
+
+

@@ -1,0 +1,55 @@
+Guia Instalação do Docker no Linux Ubuntu 20.04 via command line:
+
+Instalação do Docker:
+1) Atualizar pacotes:
+sudo apt update
+
+2) Instalar pacotes pré-requisitos liberam o apt a usar pacotes pelo HTTPS: 
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+3) Adicionar chave GPG para o repositório oficial do Docker no sistema:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+4) Adicionar o repositório do Docker às fontes do APT:
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+
+5) Atualizar pacotes do Docker no repositório adicionado:
+sudo apt update
+
+6) Validar a local da instalação do repositório do Docker:
+apt-cache policy docker-ce
+
+7) Instalar Docker:
+sudo apt install docker-ce
+
+8) Validar status do Docker:
+sudo systemctl status docker
+
+Inclusão de user no grupo do Docker:
+1) Adicionar usuário no grupo docker
+sudo usermod -aG docker ${USER}
+
+2) Inscrever o novo membro ao grupo:
+su - ${USER}
+Digitar a senha do user.
+
+3) Validar a inclusão do usuário:
+id -nG
+
+Remoção do Docker:
+1) Listar os pacotes do Docker instalados
+dpkg -l | grep -i docker
+
+2) Remover os pacotes:
+sudo apt-get purge pacote
+
+Ex:
+dpkg -l | grep -i docker -> Retorna: docker-compose-plugin
+sudo apt-get purge docker-compose-plugin
+
+Local da instalação Docker: /etc/apt/keyrings/
+
+
+Referência: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-pt
+
+
