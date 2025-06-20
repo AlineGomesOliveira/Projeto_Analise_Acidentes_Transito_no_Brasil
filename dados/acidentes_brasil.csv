@@ -1,0 +1,4 @@
+data,estado,tipo_acidente,feridos,mortos,veiculos_envolvidos
+2023-01-01,SP,Colisão,2,0,2
+2023-01-02,RJ,Atropelamento,1,1,1
+2023-01-03,MG,Capotamento,0,1,3
