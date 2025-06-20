@@ -1,0 +1,101 @@
+estado,municipio,data,tipo_acidente,qtd_vitimas,qtd_mortos,horario,dia_semana,condicao_climatica,idade_vitima
+RJ,Curitiba,2023-10,Capotamento,0,0,00:15,Sábado,Neblina,37
+GO,Goiânia,2023-11,Engavetamento,4,2,05:18,Domingo,Chuva,45
+GO,Florianópolis,2022-12,Capotamento,4,1,00:02,Domingo,Nublado,40
+GO,Porto Alegre,2023-03,Atropelamento,3,2,20:35,Sábado,Vento forte,14
+BA,Recife,2023-04,Capotamento,0,0,02:01,Domingo,Céu limpo,40
+GO,Belo Horizonte,2023-08,Capotamento,5,0,23:53,Segunda,Vento forte,54
+RS,Salvador,2023-09,Colisão,2,2,07:49,Terça,Céu limpo,49
+PE,Fortaleza,2023-06,Engavetamento,3,0,08:37,Terça,Neblina,56
+SP,Belo Horizonte,2022-02,Queda de moto,5,2,14:35,Segunda,Neblina,27
+RJ,Fortaleza,2023-03,Colisão,5,1,14:01,Quinta,Chuva,27
+BA,Rio de Janeiro,2022-10,Engavetamento,0,0,02:49,Segunda,Neblina,80
+BA,Florianópolis,2022-09,Engavetamento,5,1,03:14,Sábado,Chuva,63
+CE,Porto Alegre,2022-05,Engavetamento,1,1,08:38,Sexta,Céu limpo,61
+PR,Salvador,2023-02,Engavetamento,0,0,07:54,Quinta,Chuva,43
+PR,Rio de Janeiro,2022-12,Queda de moto,4,2,01:56,Domingo,Céu limpo,43
+PR,São Paulo,2023-12,Colisão,1,1,22:20,Segunda,Neblina,22
+BA,Rio de Janeiro,2023-08,Engavetamento,1,0,16:54,Domingo,Neblina,60
+SP,Florianópolis,2022-04,Atropelamento,1,0,15:09,Segunda,Chuva,57
+RS,Curitiba,2023-11,Engavetamento,2,0,07:11,Sábado,Nublado,36
+MG,Salvador,2023-08,Atropelamento,4,0,11:12,Sexta,Vento forte,14
+SP,Porto Alegre,2022-12,Atropelamento,0,0,00:34,Terça,Vento forte,16
+BA,São Paulo,2023-01,Capotamento,4,0,01:19,Segunda,Chuva,46
+CE,Porto Alegre,2023-05,Capotamento,2,2,21:22,Terça,Céu limpo,17
+RJ,Goiânia,2023-03,Capotamento,0,0,21:39,Quinta,Nublado,52
+GO,Belo Horizonte,2023-11,Colisão,1,1,00:07,Domingo,Neblina,78
+GO,Salvador,2022-01,Engavetamento,0,0,03:03,Quinta,Céu limpo,70
+BA,Porto Alegre,2023-09,Capotamento,0,0,00:08,Segunda,Chuva,76
+SC,Rio de Janeiro,2023-01,Queda de moto,0,0,08:51,Sábado,Neblina,61
+BA,Recife,2022-04,Capotamento,3,0,13:31,Quarta,Chuva,41
+RJ,Belo Horizonte,2023-12,Atropelamento,1,0,23:24,Domingo,Neblina,33
+SP,Salvador,2022-07,Colisão,1,1,12:01,Segunda,Neblina,27
+PR,Porto Alegre,2022-06,Colisão,1,1,09:53,Segunda,Chuva,77
+PE,Salvador,2023-01,Atropelamento,5,2,14:57,Terça,Céu limpo,66
+MG,Curitiba,2023-09,Colisão,1,0,13:55,Segunda,Nublado,23
+GO,São Paulo,2022-12,Atropelamento,5,0,14:02,Sábado,Vento forte,50
+MG,Rio de Janeiro,2022-04,Engavetamento,3,1,03:29,Segunda,Vento forte,29
+GO,Recife,2023-04,Atropelamento,4,0,15:24,Terça,Neblina,17
+MG,Porto Alegre,2023-04,Queda de moto,0,0,10:31,Sexta,Vento forte,78
+RS,Curitiba,2023-06,Queda de moto,3,0,05:15,Quarta,Neblina,25
+BA,Fortaleza,2023-08,Atropelamento,4,2,04:10,Terça,Nublado,69
+PE,Recife,2022-12,Atropelamento,4,0,09:21,Sexta,Chuva,70
+BA,Salvador,2022-04,Colisão,1,1,22:31,Quarta,Chuva,41
+SP,Salvador,2024-01,Colisão,1,1,16:24,Segunda,Nublado,69
+RJ,Salvador,2022-07,Queda de moto,4,0,03:54,Domingo,Vento forte,17
+SP,Recife,2023-06,Queda de moto,5,2,12:35,Sábado,Chuva,64
+PR,Florianópolis,2022-05,Queda de moto,4,0,01:53,Domingo,Nublado,56
+PR,Florianópolis,2022-07,Colisão,2,0,15:12,Sábado,Chuva,74
+SP,Belo Horizonte,2022-07,Atropelamento,1,1,07:59,Sexta,Neblina,31
+SP,Florianópolis,2023-06,Queda de moto,2,0,01:26,Segunda,Neblina,47
+MG,Belo Horizonte,2022-04,Colisão,5,2,05:05,Domingo,Neblina,63
+SC,Recife,2023-01,Colisão,4,0,10:21,Quinta,Vento forte,78
+MG,Porto Alegre,2023-06,Queda de moto,4,0,16:20,Sexta,Chuva,57
+BA,Fortaleza,2022-09,Colisão,0,0,21:04,Domingo,Neblina,78
+SC,Florianópolis,2022-08,Capotamento,3,2,12:21,Quinta,Nublado,79
+GO,Porto Alegre,2022-07,Engavetamento,1,1,23:12,Quarta,Céu limpo,50
+PE,Rio de Janeiro,2022-06,Atropelamento,3,2,18:29,Sábado,Chuva,23
+MG,Rio de Janeiro,2022-04,Capotamento,1,0,01:07,Domingo,Vento forte,43
+RS,Recife,2022-03,Engavetamento,1,0,12:20,Sábado,Nublado,15
+RS,Fortaleza,2022-02,Colisão,5,2,00:12,Quarta,Céu limpo,39
+RS,Recife,2023-06,Atropelamento,2,2,14:26,Quarta,Vento forte,55
+RJ,Goiânia,2023-11,Queda de moto,2,1,04:20,Quinta,Neblina,73
+MG,Fortaleza,2023-04,Queda de moto,4,0,00:23,Sábado,Vento forte,72
+BA,Belo Horizonte,2023-04,Atropelamento,0,0,00:50,Sábado,Neblina,20
+BA,Salvador,2023-08,Atropelamento,1,0,04:45,Terça,Céu limpo,40
+RJ,Fortaleza,2023-11,Queda de moto,3,2,08:36,Segunda,Céu limpo,10
+GO,Porto Alegre,2022-06,Colisão,2,1,16:33,Sexta,Chuva,10
+PR,Recife,2023-07,Capotamento,5,1,08:01,Sábado,Céu limpo,39
+GO,Recife,2023-11,Engavetamento,1,0,19:23,Sábado,Chuva,49
+RJ,Rio de Janeiro,2022-04,Engavetamento,1,0,01:53,Segunda,Chuva,50
+RS,Goiânia,2022-03,Queda de moto,3,1,00:07,Terça,Neblina,17
+SP,Salvador,2022-12,Queda de moto,1,1,17:00,Sexta,Neblina,16
+PE,Salvador,2023-09,Engavetamento,3,1,16:51,Quarta,Céu limpo,45
+SP,Belo Horizonte,2023-08,Queda de moto,4,1,23:31,Sábado,Nublado,10
+BA,Goiânia,2022-06,Capotamento,1,1,10:26,Quinta,Chuva,22
+SP,Curitiba,2023-06,Queda de moto,0,0,22:57,Quarta,Nublado,75
+CE,Goiânia,2023-03,Atropelamento,5,1,22:59,Quarta,Chuva,28
+PE,Florianópolis,2023-08,Colisão,1,0,03:36,Sexta,Chuva,78
+SC,Belo Horizonte,2023-05,Queda de moto,2,2,06:02,Terça,Chuva,44
+BA,Belo Horizonte,2022-12,Queda de moto,5,0,05:19,Sexta,Nublado,51
+BA,Salvador,2022-07,Capotamento,5,2,23:31,Quinta,Vento forte,70
+MG,Recife,2022-04,Atropelamento,4,1,22:16,Sexta,Chuva,15
+CE,Porto Alegre,2022-06,Capotamento,3,0,09:48,Segunda,Chuva,12
+MG,Curitiba,2022-02,Queda de moto,3,0,08:55,Sexta,Chuva,33
+PR,Florianópolis,2022-04,Atropelamento,2,0,05:01,Sábado,Neblina,65
+MG,Belo Horizonte,2022-02,Engavetamento,5,0,22:45,Domingo,Céu limpo,21
+PE,Fortaleza,2023-06,Colisão,4,2,01:59,Sexta,Neblina,61
+GO,São Paulo,2022-08,Capotamento,4,2,13:30,Sábado,Neblina,75
+CE,Curitiba,2023-11,Queda de moto,0,0,06:34,Sábado,Neblina,41
+RS,Belo Horizonte,2022-11,Colisão,0,0,20:51,Domingo,Neblina,16
+RS,Goiânia,2022-09,Queda de moto,0,0,09:00,Sexta,Vento forte,70
+RS,Fortaleza,2022-09,Colisão,2,1,11:37,Segunda,Vento forte,75
+GO,Recife,2023-08,Engavetamento,2,1,16:07,Domingo,Neblina,59
+SP,Goiânia,2023-09,Queda de moto,4,1,14:31,Sábado,Chuva,16
+MG,Belo Horizonte,2023-09,Engavetamento,2,1,20:04,Segunda,Céu limpo,76
+MG,Recife,2023-11,Queda de moto,1,0,15:46,Quarta,Vento forte,24
+RJ,São Paulo,2022-10,Colisão,0,0,13:47,Domingo,Vento forte,11
+GO,Porto Alegre,2022-06,Engavetamento,2,0,19:26,Terça,Chuva,43
+RS,Porto Alegre,2023-01,Engavetamento,2,2,01:05,Segunda,Vento forte,63
+RJ,São Paulo,2023-02,Queda de moto,1,1,00:47,Domingo,Vento forte,74
+RJ,Curitiba,2022-07,Engavetamento,5,0,12:11,Sábado,Neblina,18
